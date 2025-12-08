@@ -1,10 +1,10 @@
-import React from 'react'
-import './Hero.css'
-import profile_img from '../../assets/profile_img.svg'
+import React from "react";
+import "./Hero.css";
+import profile_img from "../../assets/profile_img.svg";
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div className="hero">
       <img src={profile_img} alt="profile" className="hero-img" />
 
       <h1 className="hero-title">
@@ -12,7 +12,9 @@ const Hero = () => {
       </h1>
 
       <p className="hero-desc">
-        I am a Frontend Developer from Bangalore with 2 years of experience.
+       Passionate about crafting clean, modern and
+        responsive web experiences.  Using JavaScript, React, Next.js and modern frontend tools.
+        
       </p>
 
       <div className="hero-action">
@@ -20,7 +22,7 @@ const Hero = () => {
         <div className="hero-resume">My Resume</div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
