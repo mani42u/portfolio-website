@@ -1,4 +1,24 @@
 import React from "react";
+import {
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiReact,
+  SiRedux,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiNodedotjs,
+  SiExpress,
+  SiMongodb,
+  SiGit,
+  SiGithub,
+  SiVercel,
+
+  SiFigma,
+  SiPostman,
+  SiNpm,
+} from "react-icons/si";
+import { DiVisualstudio } from "react-icons/di";
 import "./Skills.css";
 
 const Skills = () => {
@@ -8,21 +28,90 @@ const Skills = () => {
 
       <div className="skills-grid">
 
-        <div className="skill-card">HTML / CSS</div>
-        <div className="skill-card">JavaScript</div>
-        <div className="skill-card">React</div>
-        <div className="skill-card">Redux</div>
-        <div className="skill-card">Next.js</div>
-        <div className="skill-card">Tailwind CSS</div>
-        <div className="skill-card">Node.js</div>
-        <div className="skill-card">Express.js</div>
-        <div className="skill-card">MongoDB</div>
-        <div className="skill-card">Git / GitHub</div>
-        <div className="skill-card">Vercel</div>
-        <div className="skill-card">VS Code</div>
-        <div className="skill-card">Figma</div>
-        <div className="skill-card">Postman</div>
-        <div className="skill-card">npm</div>
+        <div className="skill-card">
+          <SiHtml5 />
+          <span>HTML</span>
+        </div>
+
+        <div className="skill-card">
+          <SiCss3 />
+          <span>CSS</span>
+        </div>
+
+        <div className="skill-card">
+          <SiJavascript />
+          <span>JavaScript</span>
+        </div>
+
+        <div className="skill-card">
+          <SiReact />
+          <span>React</span>
+        </div>
+
+        <div className="skill-card">
+          <SiRedux />
+          <span>Redux</span>
+        </div>
+
+        <div className="skill-card">
+          <SiNextdotjs />
+          <span>Next.js</span>
+        </div>
+
+        <div className="skill-card">
+          <SiTailwindcss />
+          <span>Tailwind CSS</span>
+        </div>
+
+        <div className="skill-card">
+          <SiNodedotjs />
+          <span>Node.js</span>
+        </div>
+
+        <div className="skill-card">
+          <SiExpress />
+          <span>Express.js</span>
+        </div>
+
+        <div className="skill-card">
+          <SiMongodb />
+          <span>MongoDB</span>
+        </div>
+
+        <div className="skill-card">
+          <SiGit />
+          <span>Git</span>
+        </div>
+
+        <div className="skill-card">
+          <SiGithub />
+          <span>GitHub</span>
+        </div>
+
+        <div className="skill-card">
+          <SiVercel />
+          <span>Vercel</span>
+        </div>
+
+        <div className="skill-card">
+          <DiVisualstudio />
+          <span>VS Code</span>
+        </div>
+
+        <div className="skill-card">
+          <SiFigma />
+          <span>Figma</span>
+        </div>
+
+        <div className="skill-card">
+          <SiPostman />
+          <span>Postman</span>
+        </div>
+
+        <div className="skill-card">
+          <SiNpm />
+          <span>npm</span>
+        </div>
 
       </div>
     </div>
