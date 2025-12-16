@@ -1,19 +1,19 @@
 import React from "react";
 import "./Hero.css";
-import profile_img from "../../assets/profile_img.svg";
+import profile_small from "../../assets/profile_small.jpg";
 
 const Hero = () => {
   return (
     <div className="hero">
-      <img src={profile_img} alt="profile" className="hero-img" />
+      <img src={profile_small} alt="profile" className="hero-img" />
 
       <h1 className="hero-title">
-        I'm <span>Manibhushan Kumar</span>, Frontend Developer based in India
+        Hi, I'm <span>Manibhushan Kumar</span>, Front-end Developer based in India
       </h1>
 
       <p className="hero-desc">
        Passionate about crafting clean, modern and
-        responsive web experiences.  Using JavaScript, React, Next.js and modern frontend tools.
+        responsive web experiences. Let's create something amazing together!
         
       </p>
 

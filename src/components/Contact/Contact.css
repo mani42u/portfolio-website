@@ -6,6 +6,7 @@
 .contact-title {
   font-size: 40px;
   text-align: center;
+  padding-top: 50px;
   margin-bottom: 50px;
   font-weight: 700;
 }
@@ -79,9 +80,10 @@
 }
 
 .send-btn {
-  background: #6a5acd;
-  color: #fff;
-  padding: 12px;
+  width: 100%;
+  background: #00d8ff;
+  color: #000;
+  padding: 12px 15px;
   border: none;
   border-radius: 8px;
   font-size: 17px;
@@ -90,7 +92,7 @@
 }
 
 .send-btn:hover {
-  background: #7b68ee;
+  background: #00b7d6;
   transform: translateY(-3px);
 }
 

@@ -1,12 +1,13 @@
 .skills {
   padding: 90px 40px;
-  background: #0c0c0c;
+  
   color: white;
   text-align: center;
 }
 
 .skills-title {
   font-size: 42px;
+  padding-top: 50px;
   margin-bottom: 40px;
   font-weight: bold;
   position: relative;
@@ -28,7 +29,7 @@
   border-radius: 12px;
   font-size: 18px;
   font-weight: 500;
-  color: #00d8ff;
+  color: #eef1f2;
   border: 1px solid #222;
   transition: 0.3s ease;
   cursor: pointer;
