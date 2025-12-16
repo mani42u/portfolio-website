@@ -34,15 +34,17 @@ const Contact = () => {
         {/* -------- LEFT SIDE -------- */}
         <div className="contact-left">
           <h3>Let’s Connect</h3>
-          <p>If you want to collaborate or have any opportunity, feel free to reach out!</p>
+          <p>Open to internships, freelance work, and collaborations.</p>
 
           <div className="contact-details">
-            <p><strong>Email:</strong> manibhushan2003@gmail.com</p>
-            <p><strong>Location:</strong> India</p>
+            <p><strong>Email:</strong> <br/>
+             mani42you@gmail.com</p>
+            <p><strong>Location:</strong> <br/>
+            Bengaluru India</p>
           </div>
 
           <div className="social-links">
-            <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">
+            <a href="https://github.com/mani42u" target="_blank" rel="noreferrer">
               GitHub
             </a>
             <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer">

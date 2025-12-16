@@ -59,7 +59,7 @@
 }
 
 .hero-connect,
-.hero-resume {
+.resume-btn {
   padding: 12px 26px;
   border-radius: 8px;
   cursor: pointer;
@@ -79,12 +79,14 @@
 }
 
 /* Secondary button */
-.hero-resume {
+.resume-btn  {
+  text-decoration: none;
+  display: inline-block;
   border: 2px solid #00d8ff;
   color: #00d8ff;
 }
 
-.hero-resume:hover {
+.resume-btn:hover {
   background-color: #00d8ff;
   color: #000;
   transform: scale(1.05);
@@ -110,7 +112,7 @@
   }
 
   .hero-connect,
-  .hero-resume {
+  .resume-btn {
     width: 200px;
     text-align: center;
   }
