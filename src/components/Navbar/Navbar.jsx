@@ -39,9 +39,7 @@ const Navbar = () => {
           <NavLink to="/projects">Project</NavLink>
         </li>
 
-        <li onClick={() => setMenuOpen(false)}>
-          <NavLink to="/experience">Education & Experience</NavLink>
-        </li>
+        
 
         <li onClick={() => setMenuOpen(false)}>
           <NavLink to="/contact">Contact</NavLink>
