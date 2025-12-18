@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <div className="nav-logo">ManibhushanKr</div>
+      <div className="nav-logo">Manibhushan Kumar</div>
 
       {/* -------- HAMBURGER / CLOSE ICON -------- */}
       <div

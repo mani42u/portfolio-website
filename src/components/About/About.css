@@ -1,8 +1,9 @@
+/* ===================== ABOUT SECTION ===================== */
+
 /* Wrapper */
 .about-wrapper {
   padding: 100px 40px;
   color: white;
-  /* background-color: #0c0c0c; */
 }
 
 /* Section Title */
@@ -18,15 +19,6 @@
   font-weight: bold;
 }
 
-.about-title img {
-  position: absolute;
-  width: 160px;
-  top: -20px;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0.4;
-}
-
 /* Container */
 .about-container {
   display: flex;
@@ -35,40 +27,19 @@
   justify-content: center;
 }
 
-/* Image Section */
-.about-left {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
-
-/* Responsive Image Wrapper */
-.about-img-wrapper {
-  width: 100%;
-  max-width: 300px;    /* controls max size */
-  object-fit: cover;
-}
-
-/* Responsive Image */
-.about-img {
-  width: 100%;         /* fully responsive */
-  height: auto;        /* prevent stretching */
-  display: block;
-  border-radius: 20px;
-  box-shadow: 0px 0px 25px rgba(0, 220, 255, 0.25);
-  animation: fadeIn 1s ease;
-}
-
 /* Right Content */
 .about-right {
-  flex: 1.2;
+  width: 100%;
+  max-width: 1000px;
 }
 
+/* Tagline */
 .about-tagline {
   font-size: 20px;
   color: #00d8ff;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   letter-spacing: 1px;
+  text-align: center;
 }
 
 /* Paragraphs */
@@ -81,21 +52,22 @@
 }
 
 @keyframes slideIn {
-  from { opacity: 0; transform: translateY(15px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-/* Skills Section */
+/* ===================== SKILLS ===================== */
+
 .skills-section {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
-.skills-section h3 {
-  font-size: 22px;
-  margin-bottom: 20px;
-}
-
-/* Skill Bars */
 .skill-bar {
   margin-bottom: 18px;
 }
@@ -126,14 +98,94 @@
   to { width: 100%; }
 }
 
-/* Responsive */
+/* ===================== ABOUT CARDS ===================== */
+
+.about-card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.about-card {
+  background: #ffffff10;
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid #ffffff20;
+  transition: all 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* ===================== EXPERIENCE & EDUCATION ===================== */
+/
+
+.exp-edu-section {
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.exp-edu-container {
+  width: 100%;
+  max-width: 1200px; /* EXACTLY like about section */
+}
+
+.section-title {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* Grid */
+.exp-edu-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+/* Cards (same visual style as about-card) */
+.exp-box,
+.edu-box {
+  background: #ffffff10;
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid #ffffff20;
+  transition: all 0.3s ease;
+}
+
+.exp-box:hover,
+.edu-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ===================== RESPONSIVE ===================== */
+
 @media (max-width: 900px) {
   .about-container {
     flex-direction: column;
     text-align: center;
   }
 
-  .about-img-wrapper {
-    max-width: 230px;  /* smaller image on mobile */
+  .about-card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .exp-edu-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .exp-edu-section {
+    padding: 60px 20px;
   }
 }

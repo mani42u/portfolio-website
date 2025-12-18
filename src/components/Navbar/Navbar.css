@@ -22,8 +22,7 @@
 .nav-logo {
   font-size: 24px;
   font-weight: bold;
-  font-style: oblique;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.2px;
 }
 
 /* -------- MENU ICON -------- */
@@ -95,10 +94,12 @@
   .nav-menu {
     position: absolute;
     top: 80px;
-    right: 0;
+    right: 3px;
     margin-top: 0;
-    width: 35%;
+    width: 45%;
     background: #0c0c0c;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
 
     flex-direction: column;
     align-items: center;
@@ -108,7 +109,12 @@
     padding-top: 10px;
     display: none;
   }
-
+  .nav-logo {
+    font-size: 20px;
+  }
+  .menu-icon {
+    font-size: 20px;
+  }
   .nav-menu.active {
     display: flex;
   }
