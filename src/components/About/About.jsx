@@ -112,7 +112,7 @@ const About = () => {
                     {" "}
                     <h4>Bachelor of Computer Applications (BCA)</h4>{" "}
                     <span className="year">2022 – 2025</span>{" "}
-                    <p className="college">[Your College Name], Bangalore</p>{" "}
+                    <p className="college">Nrupathunga University , Bangalore</p>{" "}
                     <ul>
                       {" "}
                       <li>
